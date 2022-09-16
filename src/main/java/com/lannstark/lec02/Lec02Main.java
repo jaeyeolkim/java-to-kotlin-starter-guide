@@ -2,8 +2,9 @@ package com.lannstark.lec02;
 
 public class Lec02Main {
 
+  static boolean kk;
   public static void main(String[] args) {
-
+    System.out.println("args = " + kk);
   }
 
   public boolean startsWithA1(String str) {
